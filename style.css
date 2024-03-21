@@ -1,0 +1,101 @@
+.p{
+      margin-bottom: 100px;
+    padding:200px ;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.wrapper {
+    background:lightgoldenrodyellow ;
+    width: 1300px;
+    padding: 20px;
+    margin:10px;
+
+}
+.wrapper .team{
+   
+    background: lavenderblush;
+    width: 500px;
+    height: 50px;
+    padding: 15%;
+    
+    
+
+}
+.heading{
+    text-align: center;
+    font-weight: 500px;
+    color:darkolivegreen;
+    padding: 12px;
+}
+.sub-heading{
+    text-align: center;
+    font-size: large;
+    
+ 
+}
+.team-slog{
+    text-align: center;
+    font-size: x-large;
+    color: teal;
+    
+
+}
+
+.team-heading{
+    text-align: center;
+    font-weight: 500px;
+    padding: 10px;
+    color:darkred;
+
+}
+
+hr {
+    width: 200px;
+    margin: 10px auto;
+
+
+}
+
+.member {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    color: white;
+
+
+
+}
+
+.team-mem-name
+{
+    text-align: center;
+    font-size: 15px;
+    margin: 7px;
+    color:yellowgreen;
+
+}
+.team-mem-role {
+    text-align: center;
+    font-size: 15px;
+    margin: 7px;
+    color: black;
+
+}
